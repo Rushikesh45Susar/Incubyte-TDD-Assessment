@@ -20,4 +20,8 @@ describe('String Calculator', () => {
     test("should return number for new lines between numbers", () => {
         expect(add("1\n2,3")).toBe(6)
     })
+
+    test("should handle the custom delimeters", () => {
+        expect(add("//;\n1;2")).toBe(3)
+    })
 })
