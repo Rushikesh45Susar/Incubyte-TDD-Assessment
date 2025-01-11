@@ -16,4 +16,8 @@ describe('String Calculator', () => {
     test("should return the number for multiple numbers separated by comma", () => {
         expect(add("1,2,3")).toBe(6)
     })
+
+    test("should return number for new lines between numbers", () => {
+        expect(add("1\n2,3")).toBe(6)
+    })
 })
