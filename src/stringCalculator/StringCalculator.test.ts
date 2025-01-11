@@ -8,4 +8,8 @@ describe('String Calculator', () => {
     test("should return the number for a single input", () => {
         expect(add("1")).toBe(1);
     });
+
+    test("should return the number for a multiple number input", () => {
+        expect(add("123")).toBe(6);
+    });
 })
