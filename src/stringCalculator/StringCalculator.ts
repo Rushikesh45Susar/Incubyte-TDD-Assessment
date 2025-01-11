@@ -1,3 +1,5 @@
-function StringCalculator (numbers: string) {}
+function StringCalculator (numbers: string) {
+    if(!numbers) return 0
+}
 
 module.exports = StringCalculator
