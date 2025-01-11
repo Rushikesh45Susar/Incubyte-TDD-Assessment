@@ -10,7 +10,7 @@ describe('String Calculator', () => {
     });
 
     test("should return the number for a multiple number input", () => {
-        expect(add("123")).toBe(6);
+        expect(add("123")).toBe(123);
     });
 
     test("should return the number for multiple numbers separated by comma", () => {
