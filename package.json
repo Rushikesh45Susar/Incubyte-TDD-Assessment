@@ -1,0 +1,27 @@
+{
+  "name": "incubyte-tdd-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rushikesh45Susar/Incubyte-TDD-Assessment.git"
+  },
+  "author": "Rushikesh Susar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rushikesh45Susar/Incubyte-TDD-Assessment/issues"
+  },
+  "homepage": "https://github.com/Rushikesh45Susar/Incubyte-TDD-Assessment#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}
